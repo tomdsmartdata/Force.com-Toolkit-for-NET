@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Salesforce.Force.Tests</RootNamespace>
     <AssemblyName>Salesforce.Force.Tests</AssemblyName>
     <SignAssembly>true</SignAssembly>
@@ -24,16 +24,16 @@
     <ProjectReference Include="..\..\src\ForceToolkitForNET\ForceToolkitForNET.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" Version="2.2.1">
+    <PackageReference Include="coverlet.msbuild" Version="6.0.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="NUnit" Version="3.10.1" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" /> 
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" /> 
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.3" />
+<!--    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />-->
   </ItemGroup>
   <ItemGroup>
     <Content Include="KnownGoodContent\UserObjectDescribeMetadata.json">

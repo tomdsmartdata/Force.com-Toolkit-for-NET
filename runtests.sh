@@ -1,4 +1,3 @@
-dotnet clean tests/ForceToolkitForNET.Tests.sln
-dotnet build tests/ForceToolkitForNET.Tests.sln
-dotnet test tests/ForceToolkitForNET.Tests.sln --list-tests
-dotnet test tests/ForceToolkitForNET.Tests.sln /p:CollectCoverage=true
+dotnet clean Force.com-Toolkit-for-NET.sln 
+dotnet build Force.com-Toolkit-for-NET.sln
+dotnet test Force.com-Toolkit-for-NET.sln

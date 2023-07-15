@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2045DF8-3ABF-41F6-BB30-A7DB697FE477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrariesForNET", "src\CommonLibrariesForNET\CommonLibrariesForNET.csproj", "{B1E86100-2607-47E2-A40F-359F4B6626CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolkitForNET", "src\ForceToolkitForNET\ForceToolkitForNET.csproj", "{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterToolkitForNET", "src\ChatterToolkitForNET\ChatterToolkitForNET.csproj", "{E3D75A73-3538-4C89-81D5-526BDD22E84A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F8E3403-A1ED-4ABF-BD38-F4CD5E392C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceToolkitForNET.Tests", "tests\ForceToolkitForNET.Tests\ForceToolkitForNET.Tests.csproj", "{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E86100-2607-47E2-A40F-359F4B6626CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E86100-2607-47E2-A40F-359F4B6626CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E86100-2607-47E2-A40F-359F4B6626CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E86100-2607-47E2-A40F-359F4B6626CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D75A73-3538-4C89-81D5-526BDD22E84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D75A73-3538-4C89-81D5-526BDD22E84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D75A73-3538-4C89-81D5-526BDD22E84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D75A73-3538-4C89-81D5-526BDD22E84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1E86100-2607-47E2-A40F-359F4B6626CB} = {C2045DF8-3ABF-41F6-BB30-A7DB697FE477}
+		{4A6B7D93-94EA-4E75-ACBB-C2B983F3A82D} = {C2045DF8-3ABF-41F6-BB30-A7DB697FE477}
+		{E3D75A73-3538-4C89-81D5-526BDD22E84A} = {C2045DF8-3ABF-41F6-BB30-A7DB697FE477}
+		{8851CDBE-D83A-45E5-AFD1-1C9A687A6FFF} = {8F8E3403-A1ED-4ABF-BD38-F4CD5E392C8A}
+	EndGlobalSection
+EndGlobal
