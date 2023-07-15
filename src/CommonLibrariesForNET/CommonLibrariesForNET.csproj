@@ -6,13 +6,25 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\ForceTookitForNet.snk</AssemblyOriginatorKeyFile>
     <AssemblyTitle>Salesforce.Common</AssemblyTitle>
-    <Company>salesforce.com</Company>
+    <Company>enosix.com</Company>
     <Product>Salesforce.Common</Product>
     <Description></Description>
-    <Copyright>Copyright © 2018</Copyright>
+    <Copyright>Copyright © 2023</Copyright>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>tdelaney.Salesforce.Common</PackageId>
+    <Title>tdelaney.Salesforce.Common</Title>
+    <Version>3.0.1</Version>
+    <Authors>Tom Delaney</Authors>
+    <Description>The tdelaney.Salesforce.Common NuGet provides a .NET library with model for Salesforce Lightning REST APIs.</Description>
+    <PackageLicenseUrl>https://raw.github.com/tomdsmartdata/Force.com-Toolkit-for-NET/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tomdsmartdata/Force.com-Toolkit-for-NET/</PackageProjectUrl>
+    <PackageIconUrl>https://raw.github.com/tomdsmartdata/Force.com-Toolkit-for-NET/master/scripts/assets/avatar.png</PackageIconUrl>
+    <Copyright>Copyright 2023</Copyright>
+    <PackageTags>salesforce forcedotcom force.com force rest api</PackageTags>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>

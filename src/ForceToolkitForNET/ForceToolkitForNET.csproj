@@ -7,7 +7,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\ForceTookitForNet.snk</AssemblyOriginatorKeyFile>
     <AssemblyTitle>Salesforce.Force</AssemblyTitle>
-    <Company>salesforce.com</Company>
+    <Company>enosix.com</Company>
     <Product>Salesforce.Force</Product>
     <Description></Description>
     <Copyright>Copyright © 2018</Copyright>
@@ -16,15 +16,15 @@
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <PackageId>DeveloperForce.Force</PackageId>
-    <Title>DeveloperForce.Force</Title>
-    <Version>2.1.0</Version>
-    <Authors>wadewegner</Authors>
-    <Description>The DeveloperForce.Force NuGet provides a .NET library for interacting with Salesforce Lightning REST APIs.</Description>
-    <PackageLicenseUrl>https://raw.github.com/developerforce/Force.com-Toolkit-for-NET/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/developerforce/Force.com-Toolkit-for-NET/</PackageProjectUrl>
-    <PackageIconUrl>https://raw.github.com/developerforce/Force.com-Toolkit-for-NET/master/scripts/assets/avatar.png</PackageIconUrl>
-    <Copyright>Copyright 2018</Copyright>
+    <PackageId>tdelaney.DeveloperForce.Force</PackageId>
+    <Title>tdelaney.DeveloperForce.Force</Title>
+    <Version>3.0.1</Version>
+    <Authors>Tom Delaney</Authors>
+    <Description>The tdelaney.DeveloperForce.Force NuGet provides a .NET library for interacting with Salesforce Lightning REST APIs.</Description>
+    <PackageLicenseUrl>https://raw.github.com/tomdsmartdata/Force.com-Toolkit-for-NET/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tomdsmartdata/Force.com-Toolkit-for-NET/</PackageProjectUrl>
+    <PackageIconUrl>https://raw.github.com/tomdsmartdata/Force.com-Toolkit-for-NET/master/scripts/assets/avatar.png</PackageIconUrl>
+    <Copyright>Copyright 2023</Copyright>
     <PackageTags>salesforce forcedotcom force.com force rest api</PackageTags>
   </PropertyGroup>
   <PropertyGroup>
